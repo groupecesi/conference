@@ -33,7 +33,7 @@ theme = "stellar"
 
   [params.intro]
     title = "Introduction"
-    description = "Nous sommes les cinquièmes années de l’école Ingénieure Informatique Cesi.Exia. Pour notre dernière année au sein de l’école, nous allons proposer une conférence qui parlera des enjeux du SI au cours des trois prochaines années. Cette conférence aura pour but de vous sensibiliser aux tendances technologique pouvant impacter votre SI et vous donner quelques pistes de réflexion pour anticiper ces changements."
+    description = "Nous sommes les cinquièmes années de l’école d'Ingénieurs en Informatique Cesi.Exia. Pour notre dernière année au sein de l’école, nous allons proposer une conférence qui parlera des enjeux du SI au cours des trois prochaines années. Cette conférence aura pour but de vous sensibiliser aux tendances technologique pouvant impacter votre SI et vous donner quelques pistes de réflexion pour anticiper ces changements."
     description2 = "Nous vous attendons le vendredi 30 Novembre à partir de 13h30 pour un accueil chaleureux autour d’un café et de quelques mignardises. La conférence débutera à 14 heures, vous aurez l’occasion d’assister à des témoignages de professionnels comme Xavier Monges Senior Manager chez Sopra Steria et Guy Sinnig Consultant Ingénierie. Nous allons introduire le sujet en débutant par une généralisation puis discuter autour de trois sujets différents qui touchent le SI."
 
   [[params.section]]

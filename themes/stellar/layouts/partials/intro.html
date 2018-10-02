@@ -1,0 +1,14 @@
+<section id="intro" class="main">
+  <div class="spotlight">
+    <div class="content">
+      <header class="major">
+        <h2>{{ .Site.Params.intro.title }}</h2>
+      </header>
+      <p class="content">
+        {{ .Site.Params.intro.description | markdownify }}
+      <br>
+      <br>
+        {{ .Site.Params.intro.description2 | markdownify }}
+      </p>
+  </div>
+</section>

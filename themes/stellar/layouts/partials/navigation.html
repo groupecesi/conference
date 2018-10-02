@@ -1,0 +1,10 @@
+<nav id="nav">
+  <ul>
+    {{ range $nav := .Site.Params.navigation }}
+      <li>
+        <a href="{{ $nav.href }}" class="active">{{ $nav.name | markdownify}}</a>
+      </li>
+    {{ end }}
+    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfM4jwfxkmL0WM63Ijx1DPNVCXz3Gjc9F9TglycRKwpICJeAg/viewform?usp=sf_link" class="button special">Participer</a></li>
+  </ul>
+</nav>

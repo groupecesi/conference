@@ -1,0 +1,132 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "fr-FR"
+title = "Conférence : Le SI dans 3 ans"
+theme = "stellar"
+
+[params]
+  [params.header]
+    title = "Conférence A5 Cesi.Exia"
+    description = 'Découvrir comment l’évolution du SI facilitera la coopération avec la stratégie de l’entreprise au cours des trois prochaines années'
+    image = "images/logo.svg"
+
+  [[params.navigation]]
+    name = "Introduction"
+    href = "#intro"
+
+  [[params.navigation]]
+    name = "Généralisation"
+    href = "#first"
+
+  [[params.navigation]]
+    name = "Big Data"
+    href = "#bigdata"
+
+  [[params.navigation]]
+    name = "SI & Sécurité"
+    href = "#iot"
+
+  [[params.navigation]]
+    name = "Optimiser ses flux"
+    href = "#flux"
+
+  [params.intro]
+    title = "Introduction"
+    description = "Nous sommes les cinquièmes années de l’école Ingénieure Informatique Cesi.Exia. Pour notre dernière année au sein de l’école, nous allons proposer une conférence qui parlera des enjeux du SI au cours des trois prochaines années. Cette conférence aura pour but de vous sensibiliser aux tendances technologique pouvant impacter votre SI et vous donner quelques pistes de réflexion pour anticiper ces changements."
+    description2 = "Nous vous attendons le vendredi 30 Novembre à partir de 13h30 pour un accueil chaleureux autour d’un café et de quelques mignardises. La conférence débutera à 14 heures, vous aurez l’occasion d’assister à des témoignages de professionnels comme Xavier Monges Senior Manager chez Sopra Steria et Guy Sinnig Consultant Ingénierie. Nous allons introduire le sujet en débutant par une généralisation puis discuter autour de trois sujets différents qui touchent le SI."
+
+  [[params.section]]
+    id = "first"
+    title = "Généralisation"
+    description = "Faisons le point sur ce qui bouge en ce moment dans la sphère IT : appréhender la complexité des enjeux qui planent au dessus du SI"
+
+    [params.section.statistics]
+      enable = true
+      [[params.section.statistic]]
+        icon = "fa-line-chart"
+        text = "Une Forte progression de la BI en France"
+      [[params.section.statistic]]
+        icon = "fa-trophy"
+        text = "Le top 10 des secteurs d’activités dans lesquels la BI s’impose"
+      [[params.section.statistic]]
+        icon = "fa-server"
+        text = "7 exemples concrets de l’utilisation du Big Data dans les entreprises"
+      [[params.section.statistic]]
+        icon = "fa-pie-chart"
+        text = "L’analyse en temps réel, une vraie valeur ajouté pour l’entreprise"
+      [[params.section.statistic]]
+        icon = "fa-book"
+        text = "Ouverture vers les autres sujets"
+
+  [[params.section]]
+    id = "bigdata"
+    title = "Le Big Data au service du SI"
+    description = ""
+    
+    # the picture is storead at static/images/
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "Pourquoi en avez vous besoin ?"
+        icon = "fa-balance-scale"
+
+      [[params.section.feature]]
+        title = "Comment le rendre accessible pour votre SI ?"
+        icon = "fa-universal-access"
+
+      [[params.section.feature]]
+        title = "Le Big Data est-il objectif ?"
+        icon = "fa-question-circle"
+
+  [[params.section]]
+    id = "iot"
+    title = "SI & Sécurité : Quelle place pour l’IOT"
+    description = ""
+
+    # the picture is storead at static/images/
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "Des risques sécuritaires évidents ..."
+        icon = "fa-fire"
+
+      [[params.section.feature]]
+        title = "... Aux conséquences désastreuses"
+        icon = "fa-heartbeat"
+
+      [[params.section.feature]]
+        title = "Bonnes pratiques & solutions"
+        icon = "fa-shield"
+
+  [[params.section]]
+    id = "flux"
+    title = "Méthode Asynchrone & SI: Optimiser ses flux"
+    description = ""
+
+# the picture is storead at static/images/
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "Le rôle et les risques de la circulation de l’information"
+        icon = "fa-map-signs"
+
+      [[params.section.feature]]
+        title = "Un changement dans le management"
+        icon = "fa-refresh"
+
+      [[params.section.feature]]
+        title = "La place de l’IA dans l’organisation"
+        icon = "fa-cogs"
+
+  [params.footer]
+    enable = true
+    title = "Concrètement"
+    description = "À l’issue de notre conférence, vous pourrez accéder à notre Livre Blanc et à nos slides, éventuellement les télécharger au format électronique. Nous serons à votre disponibilité pour toutes questions autour de notre présentation."
+
+    second_title = "A5 Cesi.Exia"
+    address = "Pavillon Martel, Europôle de l'Arbois, 13545 Aix-en-Provence"
+
+    # copyright
+    [params.footer.copyright]
+      enable = true
+      text = "© A5 Cesi.Exia"
